@@ -1,0 +1,8 @@
+build -> push -> deploy
+
+1. build, push
+    - build: build-server
+    - push: Artifactory: jfrog-server
+2. deploy: dev-server
+    - pull: pull from Artifactory
+    - deploy: dev-server
